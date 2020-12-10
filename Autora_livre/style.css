@@ -1,0 +1,188 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    margin: 2px;
+}
+
+/* ------DESKTOP FIRST ------ */
+
+/* NAVBAR */
+
+.navbar{
+    background-color: #C083B9;
+    width: 100%;
+    height: 80px;
+}
+
+.navbar_logotipo {
+    text-align: center;
+    padding: 5px;
+}
+
+
+
+/* HEADER */
+
+.header{
+    background-image: url("img/backgroud_header_01.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    height: 500px;
+    color: #ffffff;
+}
+
+.container_header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 30px;
+}
+
+.header_maravilhosa_img{
+    width: 100%;
+    height: 400px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.header_titulo{
+    width: 30%;
+    margin: 50px 0px 10px 70px ;
+    font-size: 30px;
+}
+
+
+/* --- BOTAO --- */
+  
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #C083B9;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin-top: 40px;
+}
+
+.header_button:hover {
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s;
+}
+
+.header_maravilhosa_imagem{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    top: 30%;
+    left: 58%;
+}
+
+/* -------------------------------------------------------------------------------- */
+
+/* SECAO AUTORA */
+
+.autora{
+    background-color: #FAD8E5;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.autora_titulo{
+    text-align: center;
+    color: #EA4C89;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 30px;
+}
+
+/* FOOTER */
+
+
+.footer {
+    background: #EA4C89;
+    color: #F3F3F3;
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__facebook {
+    display: flex;
+}
+
+.img-fb {
+    width: 20px;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* ------ MOBILE ------ */
+
+
+/* condição até 600px */
+@media (max-width: 600px){
+    /* --- FOOTER --- */
+    .rodape {
+        padding-top: 0;
+    }
+
+    .rodape__principal {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+
+    .rodape__logo img {
+        max-width: 250px;
+    }
+
+    .rodape__navegacao > li {
+        font-size: 1.5rem;;
+    }
+
+    .footer_cc{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 20px;
+        color: aqua;
+    }
+}
