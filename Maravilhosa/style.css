@@ -1,5 +1,6 @@
 
 * {
+  box-sizing: border-box;
   padding: 0;
   margin: 0;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
@@ -92,7 +93,7 @@ a {
     height: 300px;
     position: absolute;
     top: 30%;
-    left: 58%;
+    left: 40%;
 }
 
 
@@ -211,8 +212,7 @@ a {
 
 .nova__linha{
     color: rebeccapurple;
-    border: 1px dashed rebeccapurple;
-    width: 30%;
+    border: 1px dashed rebeccapurple;    
     margin-top: 30px;
     padding: 5px;
 }
@@ -268,3 +268,84 @@ a {
     padding: 20px;
 }
 
+@media(max-width: 1240px){
+    .header_maravilhosa_img{
+        width: 90%;
+        height: 380px;
+        margin-left: 20px;
+    }
+     
+}
+
+@media(max-width: 760px){
+    .container_header{
+        flex-direction: column;
+        
+    }
+
+    .header_titulo{
+        width: 90%;
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maravilhosa{
+        margin-top: 200px;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+
+    .container_suaHistoria{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        
+    }
+
+    .suaHistoria_imagem{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .container_recado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .form__exemplo{
+       margin-left: 10px;
+       padding: 20px;
+   }
+
+    
+    #textoInput{
+        width: 80%;
+        height: 100px;    
+    }
+    
+    #nomeInput{
+        width: 80%;
+        height: 30px;
+    }
+
+    .texto__button{
+        width: 30%;
+    }
+}
+
+@media(max-width: 500px){
+    .header_maravilhosa_img{
+        height: 220px;        
+    }
+
+    .maravilhosa{
+        margin-top: 100px;
+        
+    }
+}
