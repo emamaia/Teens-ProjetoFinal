@@ -1,0 +1,463 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* BARRA DE NAVEGAÇÃO (NAV) */
+nav{
+    min-width: 360px;
+    width: 100%;
+    background-color: #C083B9;
+    text-align: center;
+}
+
+/* MAINNNNNN */
+
+.header__elementos{
+    background-image: url("../Images/backgroud_header_pink.jpg");
+    width: 100%;
+     height: 400px;
+    text-align: center;
+}
+
+.header__elementos--maravilhosa{
+    text-align: center;
+    width: 50%;
+}
+
+.header__elementos--titulo{
+    text-align: center;
+    color: #ffffff;
+}
+
+.header__elementos--fraseDaMaravilhosa{
+    text-align: center;
+    color: #ffffff;
+    font-weight: 200;
+    width: 50%;
+    font-size: 20px;
+    line-height: 90%;
+    margin-left: 5%;
+}
+
+
+.header__container--botao{
+    width: 150px;
+    height: 33px;
+    background: #C083B9;
+    border-radius: 5px;
+    color: #ffffff;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 15px 0;
+    margin-top: 3%;
+    border-color: #C083B9;
+    
+}
+
+.header__container--linkDoBotao{
+    text-decoration: none;
+
+}
+
+.header__container--botao:hover{
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s;
+}
+
+
+
+.header__elementos--video{
+    width: 80%;
+    height: 32vh;
+
+}
+
+/* PARTE DO TÍTULO ROSAAA */
+
+.main{
+    padding-top: 20%;
+}
+.rosinha__elementos{
+    background-color: #FAD8E5;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+
+}
+
+.rosinha__elementos--titulo{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    color: #EA4C89
+}
+
+
+
+.rosinha__elementos-texto{
+    width: 80%;
+    border: 1px solid #674582;
+
+}
+
+.texto{
+    padding: 10%;
+    color: #63458A;
+}
+
+
+
+.container__historia{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container__historia--imagem{
+    width: 85%;
+    border-radius: 5px;
+}
+
+.container__historia--titulo{
+    padding: 15%;
+    color: #63458A;
+}
+
+.container__historia--texto{
+    padding: 10%;
+    color: #63458A;
+    font-weight: 300;
+}
+
+/* RECADOOOOOO */
+
+.container__recado{
+    display: flex;
+    flex-direction: column;
+    margin: 10%;
+}
+
+.recado__icon{
+    width: 20%;
+}
+
+.recadinho__titulo{
+    margin-bottom: 5%;
+    color: #EA4C89;
+}
+
+.form__exemplo{
+    display: flex;
+    flex-direction: column;
+    color: #EA4C89;
+}
+
+#textoInput{
+    resize: none;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid #EA4C89
+}
+
+#nomeInput{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #EA4C89
+
+}
+
+/* FOOTERRR */
+
+footer{
+    background: #EA4C89;
+
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    padding: 0px;
+}
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.links__home{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 80%;
+}
+
+.links__redes{
+    text-decoration: none;
+}
+
+.footer__logo{
+    width: 55%;
+    padding: 7%;
+}    
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.footer_cc>p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    opacity: 0.5;
+    text-align: center;
+    
+}
+
+.button__recado{
+    background-color: #7F479B;
+    color: #ffffff;
+    border-radius: 5px;
+    width: 25%;
+    height: 40px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    margin-left: 6%;
+    border-color: #7F479B;
+}
+
+.button__recado:hover{
+    background-color: #FAD8E5;
+    color: #EA4C89;
+    transition: background-color .3s;
+}
+
+.nova__linha{
+    color: rebeccapurple;
+    border: 2px solid rebeccapurple;
+    border-radius: 5px;
+    width: 30%;
+    margin-top: 7%;
+    padding: 5px;
+    margin-left: 6%;
+
+}
+
+.novo__nome{
+    font-weight: bold;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.novo__texto{
+    text-align: justify;
+}
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 600px){
+    .header__elementos--video{
+        height: 46vh;
+
+    }
+}
+
+@media (min-width: 768px){
+    /* .header__elementos{
+        height: 35vh;
+        text-align: center;
+    } */
+    
+    /* .header__elementos--video{
+        height: 40vh;
+        
+    } */
+    .rosinha__elementos--titulo{
+        padding-top: 4%;
+        padding-bottom: 5%;
+    }
+    .button__recado{
+        margin-left: 0%;
+    }
+
+    .container__historia--titulo{
+        padding: 6%;
+    }
+    
+    .footer__logo{
+       width: 24%;
+    }
+}
+
+@media (min-width: 847px){
+     
+    .header__elementos{
+        display: flex;
+        
+    }
+    .header__elementos--video{
+        height: 30vh;
+        width: 50%;
+        padding-left: 6%;
+        padding-top: 5%;
+        position: absolute;
+        margin-left: 40%;
+
+        
+    }
+
+    .header__elementos--titulo{
+        text-align: left;
+    }
+    .header__elementos--maravilhosa{
+        text-align: left;
+        margin-left: 5%;
+        line-height: 70px;
+    }
+}
+
+@media (min-width: 1000px){
+    .container__historia--imagemeBiografia{
+        display: flex;
+        align-items: center;
+        margin-top: -10%;
+    }
+
+    .container__historia--titulo{
+        margin: -3%;
+        margin-left: 25%;
+        margin-bottom: -5%;
+    }
+
+    .container__historia--imagem{
+        width: 40%;
+        height: 300px;
+        margin-left: 7%;
+
+    }
+
+    .container__historia--texto{
+        font-size: 13px;
+        text-align: left;
+        top: 50%;
+        margin-bottom: -2%;
+    }
+
+    .container__recado{
+        display: flex;
+    }
+
+    .recadinho__titulo{
+        margin-left: 40%;
+
+    }
+}
+
+@media (min-width: 1348px){
+    .header__elementos{
+        width: 100%;
+        height: auto;
+        text-align: center;
+        height: 320px;
+        width: 100%;
+    }
+
+    .header__elementos--video{
+        /* height: 50vh;  */
+        padding-top: 3%;
+        margin-left: 38%; 
+        /* width: 100%;  */
+        height: 380px;
+        /* margin-left: 40px; */
+        /* margin-top: 50px; */
+    }
+
+    .header__elementos--maravilhosa{
+        margin-left: 10%;
+        font-size: 20px;
+    }
+
+    .header__elementos--maravilhosa{
+        margin-top: 3%;
+    }
+
+    .container__historia{
+        display: flex;
+    }
+    
+    .container__historia--texto{
+        margin-left:-6%
+    }
+
+    .container__historia--titulo{
+        margin-left: 11%;
+    }
+
+    .container__historia--imagemeBiografia{
+        margin-left: 9%;
+        margin-right: 7%;
+        margin-top: -9%;
+    }
+
+    .texto{
+        padding:3%;
+    }
+
+    .form__exemplo{
+        margin-left: 40%;
+    }
+
+    .rosinha__elementos-texto{
+        width: 69%;
+         
+    }
+
+    .rosinha__elementos--titulo{
+        font-size: 30px;
+    }
+
+    .recado__icon{
+        width: 85%;
+        margin-bottom: -55%;
+    }
+    
+    .container__recado{
+        flex-direction: row;
+    }
+
+    .div__botao{
+        margin-top: 250px;
+    }
+
+    .header__elementos--fraseDaMaravilhosa{
+        margin-left: 0%;  
+        text-align: left;    
+                
+    }
+    
+    .area__digitacao{
+        margin-right: 30%;
+    }
+
+    .recadinho__titulo{
+        width: 500px;
+    }
+}

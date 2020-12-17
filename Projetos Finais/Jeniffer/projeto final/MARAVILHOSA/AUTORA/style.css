@@ -1,0 +1,273 @@
+ *{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+
+  a{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 180%;
+    letter-spacing: 0.02em;
+    color: inherit;
+    text-decoration: none;
+    margin: 2px;
+  }
+
+  li{
+    color: white;
+    font-weight: normal;
+    font-style: normal;
+  }
+
+   
+  /* NAVBAR */
+  
+  .navbar{
+      background-color: #C083B9;
+      width: 100%;
+      height: 80px;
+  }
+  
+  .navbar_logotipo {
+      text-align: center;
+      padding: 5px;
+  }
+  
+  /* -------------------------------------------------------------------------------- */
+  
+  
+  /* HEADER */
+  
+  .header{
+      background-image: url("img/backgroud_header_pink.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 80vh;
+      height: 500px;
+      color: #ffffff;
+  }
+  
+  .container_header{
+      width: 100%;
+      height: 100%;
+      display: flex;
+  }
+  
+  .header_titulo{
+      width: 30%;
+      margin: 80px 0px 10px 70px ;
+      font-size: 28px;
+  }
+  
+  /* --- BOTAO --- */
+    
+  .header_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 40px;
+      background: #C083B9;
+      border-radius: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      list-style: none;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin: 15px 0;
+  }
+  
+  .header_button:hover {
+      background-color: #ffffff;
+      color: #EA4C89;
+      transition: 1s;
+  }
+  
+  /*********** HEADER VIDEO  *********/
+  
+  .header_video{
+      width: 500px;
+      height: 300px;
+      position: absolute;
+      top: 42%;
+      left: 58%;
+      margin-left: -200px;
+      margin-top: -70px;
+  }
+  
+  
+  /* -------------------------------------------------------------------------------- */
+  
+  /* SECAO AUTORA */
+  
+  .section{
+      background-color:pink;
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 80vh;
+      height: 700px;   
+  }
+
+  .container_section{
+    display: flex;
+    justify-content: space-evenly;
+    
+  }
+
+  p{
+    margin: 15px;
+  }
+  
+  .section_title{
+    
+    margin: 0px 70px 0px 70px ;
+    font-size: 30px;
+    color: #eb5392;
+    position: absolute;
+    text-align: center;
+    top: 620px;
+    line-height: 30px;
+    height: 30px;
+  }
+
+  .section_foto{
+    height: auto;
+    margin: 100px 200px 100px 170px;
+    padding: 50px 50px 50px 10px;
+    background-repeat: no-repeat;
+  }
+  
+  .section_sub{
+    border: 1px solid #830973;
+    text-align: center;
+    background-color:rgb(248, 241, 248);
+    color: #63458A;
+    margin: 150px 150px 200px 25px;
+    padding: 70px 30px 70px 30px;
+  }
+  
+  .second{
+      color: #63458A;
+      font-size: 25px;
+  }
+
+  /* ------------------ CONTATO ----------------------- */
+
+  /* SEÇÃO CONTATO */
+
+  .section_contato{
+
+    display: flex;
+    align-items: center;
+    padding: 20px 190px;
+  }
+    
+
+  .contato{
+    color: rgb(223, 37, 130);
+    width: 90%;
+    margin: 80px 0px 70px 10px ;
+    font-size: 52px;
+  }
+
+  .img_contato{
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* ------------------------------------------------- */
+
+  /* Form */
+
+  
+  form{
+    display: flex;
+    flex-direction: column;
+    line-height: 30px;
+    border-radius: 10px;
+  }
+
+  #texto_input{
+    width: 50%;
+    height: 100%;
+  }
+
+  #nome_input{
+    width: 30%;
+    height: 10%;
+  }
+
+  .botao{
+    background-color:#ea4c89;
+    color: #ffffff;
+    border: 0;
+    width: 30%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    height: 40px
+  }
+
+  .botao:hover{
+    background-color:#ea4c89;
+    color: #ECDDF3;
+    transition: 0,3s;
+
+  }
+
+  /* -------------------------------------------------------- */
+/* SEÇAO BOTAO DA MARAVILHOSA */
+
+.botao_maravilhosa{
+  width: 20%;
+  background: #EA4C89;
+  text-align: center;
+  height: 60px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+  list-style: none;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  border: 0;
+}
+
+/* ---------------------------------------------- */
+/* FOOTERS */
+
+.footer {
+  background-color: #ea4c89  
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+

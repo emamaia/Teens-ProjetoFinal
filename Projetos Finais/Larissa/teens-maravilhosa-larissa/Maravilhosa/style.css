@@ -1,0 +1,443 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/*------------------------------------------------------- NAVBAR-------------------------------------------------------- */
+
+.navbar {
+    background-color: #ffffff;
+    width:100%;
+    height: 80%;
+    margin:1% 0%; 
+    padding:0; 
+}
+
+.navbar_logotipo {
+    text-align: center;
+    padding:5px; 
+}
+
+.navbar_logotipo>img {
+    background-color:#ea4c89;
+    width:15%;
+}
+
+/*--------------------------------------------------------- HEADER--------------------------------------------------- */
+
+#header {
+    /* background-image:url("IMG/backgroud_header_pink.jpg"); */
+    background-color:#ea4c89 ;
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-width: 80vh;
+    height:360px;
+    color:#ffffff;
+}
+
+.container_header {
+    width:100%;
+    height: 100%;
+    display:flex;
+}
+
+.header_titulo{
+    width:30%;
+    margin: 80px 90px 10px 110px ;  
+}
+
+.header_titulo > h1 {
+    font-weight: bolder;
+    font-size:2.2rem;
+}
+
+.header_titulo > p {
+    font-size: 1.5rem;
+    color:#ffffff;
+    font-weight: lighter;
+}
+
+.header_video {
+    /* position:absolute;
+    top:46%;
+    left:64%; */
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.header_video > img {
+    width: 100%;
+    max-width: 80%;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding:3px 34px;
+    margin: 35px 0;
+    width: 150px;
+    height: 40px;
+    background-color:#C083B9 ;
+    color: #ffffff;
+
+}
+
+.header_button:hover {
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s;
+}
+
+/* ------------------------------------------------Maravilhosa------------------------------------------------- */
+
+/* .container_maravilhosa {
+    background-color:  #FAD8E5;
+    margin:140px 0px 0px 0px;
+    height:800px;
+} */
+
+#maravilhosa {
+    background-color:  #FAD8E5;
+}
+
+.container_maravilhosa {
+    text-align: center;
+    margin:140px 300px 0px 300px;
+
+}
+
+.maravilhosa_titulo {
+    font-size:300%;
+    width:85%;
+    font-weight: bolder;
+    color: #EA4C89;
+    text-align: center;
+    padding: 70px;
+    letter-spacing: -1px;
+    font-weight: bold;
+}
+
+.maravilhosa_boxBorder {
+    width:100%;
+    border:1px solid  #674582;
+    color:#63458A;
+    font-weight: bolder;
+    margin: 0px 0px 50px 0px;
+    font-size:1.5rem;
+    line-height:30px;
+}
+
+.boxBorder_texto {
+    margin:30px;
+}
+
+ /* .container_suaHistoria {
+     display: flex; 
+} */
+
+.suaHistoria_imagem>img {
+    width:50%;
+    max-width: 100%;
+    height:auto;
+    margin: 0% 50% 20% 0%;
+}
+
+h2 {
+    color:#63458A ;
+
+}
+
+.suaHistoria_texto {
+    text-align: left;
+    color:#63458A ;
+    margin: -73% 0% 20% 60%; 
+
+}
+
+.suaHistoria_texto > h2 {
+    font-size:2rem;
+}
+
+.suaHistoria_texto > p {
+    font-size:1.3rem;
+    margin: 5px 0px 10px 0px;
+}
+
+/* ---------------------------------------------SECAO RECADO------------------------------------------------ */
+
+.recado {
+    background-color: #ffffff;
+}
+
+.container_recado {
+    display:flex;
+    align-items: center;
+    padding: 20px 190px ;
+    background-color: #ffffff;
+}
+
+.recado_icon {
+    width:60% ;
+    max-width: 100%;
+    margin: 50px 100px -219px 0px;
+    height: auto;
+}
+
+.form__exemplo {
+    display:flex;
+    flex-direction: column;
+    line-height: 30px;
+    color: #63458A;
+    font-size:1.2rem;
+    
+}
+
+.container_recado--h1 {
+    font-size: 2.5rem;
+    margin:10px 0px 30px 0px;
+    color:  #EA4C89 ;
+}
+
+#textoInput {
+    width: 400px;
+    height:100px; 
+    border-color: #C083B9;
+    font-size:1.1rem;
+}
+
+#nomeInput {
+    width: 400px;
+    height:40px; 
+    border-color: #C083B9;
+    font-size:1.1rem;
+}
+.texto__button {
+    background-color: #7F479B;
+    color:#ffffff;
+    border:0 ;
+    width:20%;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size:1.1rem;
+    transition:0.3s;
+    cursor:pointer;
+    margin-top:21px;
+    height:40px;
+}
+
+.texto__button:hover {
+    background-color: #462755;
+    color:#ECDDF3;
+    transition:0.3s;
+}
+
+.nova__linha {
+    color:rebeccapurple;
+    border: 1px dashed rebeccapurple;
+    width:30%;
+    margin-top:30%;
+    padding:5px;
+}
+
+.novo__nome {
+    font-weight:bold;
+    font-size:0.5px;
+    font-style:italic;
+}
+
+.novo__texto {
+    text-align:justify;
+}
+
+/* -------------------------------- FOOTER----------------------------------------- */
+
+.footer {
+    background: #EA4C89;
+    color: #F3F3F3;
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; 
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao__redes-sociais a {
+    text-decoration: none;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* -----------------------------------------DESKTOP FIRST---------------------------------------- */
+
+@media (max-width:1125px) {
+    *{
+        font-size: 90%;
+    }
+
+    .header_button {
+        font-size: 200%;
+    }
+
+    .footer__links {
+        font-size: 25px;
+    }
+
+    .footer_cc {
+        font-size:15px;
+    }
+
+}
+
+@media(max-width: 1116px){
+
+    *{
+        font-size: 80%;
+    }
+    .header_video{
+        /* width: 70%;
+        height: 380px;
+        margin-left: -250px; */
+    }
+
+    .maravilhosa_titulo > h1 {
+        font-size:200%;
+    }
+
+    .maravilhosa_boxBorder {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .header_button {
+        font-size: 400%;
+    }
+
+    .footer__links {
+        font-size: 35px;
+    }
+
+    .footer_cc {
+        font-size:25px;
+    }
+     
+}
+
+@media(max-width: 747px){
+
+    *{
+        font-size: 12px;
+    }
+    .container_header{
+        flex-direction: column;
+        
+    }
+
+    .header_button {
+        font-size: 100%;
+    }
+
+    .maravilhosa_titulo > h1 {
+        font-size:80%;
+    }
+
+    .boxBorder_texto {
+        margin: 30px;
+        
+    }
+
+    .maravilhosa_boxBorder {
+        margin: 0px 10px 5px 10px;
+    }
+
+    .header_video > img {
+        width: 45%;
+        margin-top: -10%;
+        margin-left: 20%;
+    
+    }
+
+    .header_titulo{
+        width: 90%;
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maravilhosa{
+        margin-top: 200px;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+
+    .container_suaHistoria{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        
+    }
+
+    .suaHistoria_imagem{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .container_recado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .form__exemplo{
+       margin-left: 10px;
+       padding: 20px;
+   }
+
+    
+    #textoInput{
+        width: 80%;
+        height: 100px;    
+    }
+    
+    #nomeInput{
+        width: 80%;
+        height: 30px;
+    }
+
+    .texto__button{
+        width: 30%;
+    }
+}
+

@@ -1,0 +1,295 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* NAV */
+
+.navbar {
+    background-color: #EA4C89;
+    width: 100%;
+    padding: 5px;
+}
+
+.navbar_logotipo {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* CABEÇALHO */
+
+.header {
+    background-image: url("../images/backgroud_header_pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 80vh;
+
+    height: 500px;
+    color: #ffffff;
+
+    display: flex;
+}
+
+.container_header__h1 {
+    margin: 0px 0px 10px 70px;
+    font-size: 20px;
+    padding: 30px;
+}
+
+.container_header__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: #C083B9;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0px 0px 0px 100px;
+}
+
+.container_header__button:hover {
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: .5;
+}
+
+.header_img {
+    display: flex;
+    width: 43%;
+    border-radius: 20px;
+    position: absolute;
+    margin: -200px 20px 16px 650px;
+}
+
+
+/* SEÇÃO AUTORA */
+
+.container_autora {
+    background-color: #FAD8E5;
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.container_autora__titulo {
+    color: #EA4C89;
+    text-align: center;
+    padding: 10px;
+    font-weight: 800;
+    padding: 60px;
+    font-size: 30px;
+}
+
+.container_autora__flex {
+    display: flex;
+    align-items: center;
+}
+
+.foto_eu {
+    display: flex;
+    width: 20%;
+    border-radius: 10px;
+    margin: 20px 9px 90px 190px;
+}
+
+
+.container__autora_bio {
+
+    margin: 100px 10px 40px 180px;
+}
+
+.texto_autora {
+    color: #63458A;
+    align-items: center;
+    margin: 10px 190px 0px 80px;
+    font-size: 14px;
+}
+
+.autora__ig {
+    text-decoration: none;
+    color: #63458A;
+}
+
+.maravilhosa__link {
+    text-decoration: none;
+    color: #63458A;
+}
+
+
+
+/* SEÇÃO CONTATO */
+
+.container_contato {
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.contato-img {
+    display: flex;
+    width: 50%;
+    margin: 30px 20px 12px 260px;
+    transform: rotateY(180deg);
+}
+
+.divContato {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 0px 60px;
+}
+
+.divContato_contato {
+    color: #EA4C89;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px 5px 60px;
+}
+
+.contato__form {
+    display: flex;
+    flex-direction: column;
+}
+
+#inputNome {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid  #EA4C89;
+    resize: none;
+    margin: 0px 4px 0px 0px;
+}
+
+#inputEmail {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid  #EA4C89;
+    resize: none;
+    margin: 0px 0px 0px 4px;
+}
+
+#inputMensagem {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    height: 64px;
+    border-radius: 5px;
+    border: 1px solid  #EA4C89;
+    resize: none;
+}
+
+.input_flex {
+    display: flex;
+}
+
+#formButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background-color: #EA4C89;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 0px 0px 0px 100px;
+}
+
+#formButton:hover {
+    background-color:  #C083B9;
+    color: #ffffff;
+    transition: .5;
+}
+
+
+/* Botão todas Maravilhosas */
+
+.todasMaravilhosas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 60px;
+    background-color: #EA4C89;
+    border-radius: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    margin: 30px 500px 50px 600px;
+}
+
+.todasMaravilhosas:hover {
+    background-color:  #EA4C89;
+    color: #ffffff;
+    transition: .5;
+}
+ 
+
+
+/* FOOTER */
+
+
+.footer {
+    background: #EA4C89;
+    color: #F3F3F3;
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__facebook {
+    display: flex;
+}
+
+.img-fb {
+    width: 20px;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+ 
+/* links - style */
+.home__link {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.reprograma__link {
+    text-decoration: none;
+    color: #ffffff;
+}

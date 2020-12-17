@@ -1,0 +1,344 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    margin: 8px;
+}
+
+/*NAVBAR*/
+
+.navbar{
+    background-color: #C083B9;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar__logotipo{
+    text-align: center;
+    padding: 5px;
+}
+
+/*HEADER*/
+
+.header{
+    background-image: url("./imagem/IMG/backgroud_header_pink.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    height: 500px;
+    color: #ffffff;
+}
+
+.container__header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 50px;
+}
+
+.header__video{
+    width: 50%;
+    height: 360px;
+    margin-left: 250px;
+    margin-top: 190px;
+}
+
+.header__titulo{
+    width: 30%;
+    text-transform: uppercase;
+    margin: 45px 0px 10px 70px ;
+    font-size: 25px
+}
+
+/*BOTAO*/
+
+.header__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #C083B9;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.header__button:hover{
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s
+}
+ 
+/*AUTORA*/
+
+.autora{
+    background-color: #FAD8E5;
+    align-items: center;
+    width: 100%;
+    height: 800px;
+}
+
+.container__autora{
+    text-align: center;
+    padding: 5%;
+}
+
+.autora--boxWhite{
+    background: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    box-sizing: 15px;
+    border-radius: 10px;
+
+}
+
+.autora__titulo{
+    text-align: center;
+    color: #EA4C89;
+    font-size: 42px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    padding: 35px;
+}
+
+.autora__frase{
+    color: #EA4C89;
+    padding-bottom: 65px;
+    font-size: 35px;
+}
+
+.autora__paragrafo{
+    padding-bottom: 55px;
+    font-size: 20px;
+}
+
+.autora__final{
+    color: #EA4C89;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.container__autora{
+    display: flex;
+    color: #EA4C89;
+    margin-left: 08%;
+    margin-right: 08%;
+}
+
+.autora__img{
+    width: 30%;
+    margin: 30px;
+}
+
+/*CONTATO*/
+
+.container__contato{
+    display: flex;
+}
+
+.form__contato{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 98px;
+    color: #EA4C89;
+    display: block;
+}
+                                    
+.nome__input{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #EA4C89;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.email__input{
+    width: 150px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 2px solid #EA4C89;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.mensagem__input{
+    width: 702px;
+    height: 164px;
+    background: #FFFFFF;
+    border: 2px solid #EA4C89;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.texto__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #EA4C89;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+.texto__button:hover{
+    background-color: #e96397;
+    color: #EA4C89;
+    transition: background-color .5s
+}
+
+/*FOOTER*/
+
+.footer{
+    background: #EA4C89 ;
+    color: #f3f3f3;
+}
+
+.footer__menu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links{
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer_cc{
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+@media(max-width: 1240px){
+    .navbar{
+        background-color: #C083B9;
+        width: 145%;
+        height: 160%;
+    }
+    .header__video{
+        width: 90%;
+        height: 360px;
+        margin-left: 220px;
+        margin-top: 250px;
+    }
+
+    .header{
+       width: 145%;
+       height: 150%;
+    }
+
+    .header__titulo{
+        margin: 45px 0px 10px 70px
+    }
+
+    .autora{
+        width: 145%;
+        height: 150%;
+    }
+
+    .form__contato{
+        font-size: 50px;
+    }
+
+    .mensagem__input{
+        width: 302px;
+        height: 164px;
+    }
+
+    .footer{
+        width: 145%;
+    }
+}
+
+@media(max-width: 760px){
+    .navbar{
+        background-color: #C083B9;
+        width: 150%;
+        height: 150%;
+    }
+
+    .header__video{
+        width: 10%;
+        height: 30px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    .header__titulo{
+        margin: -25px 0px 5px -5px
+    }
+
+    .autora{
+        width: 150%;
+        height: 150%;
+    }
+    
+    .autora__img{
+        width: 30%;
+        margin: 20px;
+    }
+    
+    .footer{
+      width: 150%;
+    }
+}
+@media(max-width: 500px){
+    .navbar{
+        background-color: #C083B9;
+        width: 210%;
+        height: 160%;
+    }
+
+    .header{
+        width: 210%;
+        height: 150%;
+    }
+    
+    .autora{
+        width: 210%;
+        height: 150%;
+    }
+    
+    .form__contato{
+        font-size: 45px;
+    }
+
+    .mensagem__input{
+        width: 250px;
+        height: 164px;
+    }
+
+    .footer{
+        width: 210%;
+    }
+
+}
+

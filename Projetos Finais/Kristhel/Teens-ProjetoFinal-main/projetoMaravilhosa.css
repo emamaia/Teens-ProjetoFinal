@@ -1,0 +1,365 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+   
+
+}
+
+/* /////////////////////DESKTOP////////////////// */
+
+/* NAV BAR */
+.body__navbar{ 
+    background-color: #C083B9;
+   
+    width: 100%;
+    height: 80%;
+
+
+}
+
+
+.body__navbar--logo{ 
+    text-align: center;
+    padding: 5px;
+
+}
+
+
+
+/* HEADER */
+
+ 
+
+
+.header{
+    background-image: url("./IMG/backgroud_header_pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 80vh;
+    height: 700px;
+    color: #ffffff;
+
+}
+
+
+.header__container{
+    display:flex;
+    width: 100%;  /* aqui é o 100% pq eh o container*/
+    height: 500px;
+
+
+}
+
+.header__container--p{ 
+    margin: 30px 0px 30px 0px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+
+}
+
+.header__container--title{  /*EUFRASIA LEITE*/
+    width: 30%;
+    margin:20px;
+    margin:80px 0px 10px 70px;  /* sentido horario, em cima, direita, baixo, esquerda*/
+    font-size: 25px;
+    font-style: bold;
+    font-family: 'Montserrat', sans-serif;
+    padding-left: 70px;
+  
+    
+    
+
+}
+
+.header__container--button{ 
+    background-color: #C083B9;
+    margin-top: 40px;
+    padding: 20px 80px 20px  80px;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 10px;
+    border-style: none;
+    letter-spacing: 0.5px;
+    font-size: 23px;
+    color: teal;
+   
+    
+}
+
+.header__container--button:hover {
+    background-color: #f00d91;
+    transition: background-color.5s;
+    
+}
+
+
+
+.header__container--video{
+    width: 500px;
+    height:300px;
+    position:absolute;
+    top:70%; 
+    left: 58%;
+    margin-left: -200px;
+    margin-top: -100px;
+     
+    
+}
+
+/* SEÇÃO MARAVILHOSA */
+
+/*------------------- TITULO E BORDA */
+
+.section__espaco--branco{ 
+    background-color: white;
+    font-size: 70px;
+    color: white;
+
+}
+
+.section__maravilhosa{ 
+    background-color: #FAD8E5;
+    padding-bottom: 80px;
+}
+
+h2{
+
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 70px;
+    color:  #EA4C89;
+    background:  #FAD8E5;
+}   
+
+.section__maravilhosa--border{ 
+    border: 1px solid #674582; 
+    justify-content: center;
+    text-align: center;
+    margin: 40px 40px 20px 40px;
+    flex: wrap;
+
+}
+
+.maravilhosa__border--texto{ 
+    margin: 30px 0px 30px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #674582;
+    font-style: bold;
+    padding: 10px 50px 10px 50px;
+    font-size: 20px;
+}
+
+
+/*----------------------------- IMAGEM E TEXTO  */
+
+.section__suaHistoria{
+    display: flex;
+   justify-content: center;
+        
+}
+
+.section__suaHistoria--img{ 
+    width: 50%;    
+    height: auto;
+    margin: 50px;
+}
+
+.eufrasia__img { 
+    border-radius: 10px;
+    width: 80%;
+}
+    
+
+
+
+h4{ 
+    padding-bottom: 10px;
+    color: #63458A;
+    font-size: 25px;
+}
+
+.section__suaHistoria--txt{ 
+    color: #63458A;
+    width: 40%;
+    margin: 20px 10px 20px 10px;
+    padding: 20px 10px 0px 0px;
+    font-size: 18px;
+    text-align: left;
+
+}
+
+.suaHistoria__txt--p{ 
+    font-family:'Roboto', sans-serif;
+}
+
+/* SEÇÃO RECADO FORMULÁRIO */
+
+/* SECAO RECADO */
+
+.section_recado{     /* essa é section inteira da parte do recado */ 
+    display: flex;
+    align-items: center;
+    padding: 0px 100px;
+    
+}
+
+.recado_icon{     
+    width: 60%;
+    max-width: 100%;
+    height: auto;
+    padding-top: 450px;
+}
+
+.recado__title{ 
+    color:  #EA4C89;
+    font-size: 35px;
+    margin-left: 100px;
+    margin-top: 50px;
+    
+}
+.div__form--main{    /* essa é a div que pega só o formulário vísivel  */
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 0px 100px;
+    
+}
+
+.recado__label--classe{ /* LABEL DO INPUT - o lugar pra digitar o RECADO */
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+    color:#63458A ;
+}
+#recado__Input{         /* ID DO INPUT - o lugar pra digitar o RECADO */
+    width: 400px;
+    height: 100%;
+    border-radius: 3px;
+    border-color: #c29af7;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    padding-left: 5px;
+    
+    
+    
+    
+}
+
+::placeholder{ 
+    font-size: 17px;
+    
+}
+    
+
+.nome__label--classe{
+    font-size: 20px;
+    margin: 40px 0px 10px 0px;
+    color:#63458A ;
+}
+
+#nome__Input{             /* ID DO INPUT - o lugar pra digitar o nome */
+    width: 400px;
+    height: 30%;
+    border-radius: 3px;
+    border-color: #c29af7;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+   
+ 
+}
+
+.recado__button{          /* CLASSE DO BOTÃO DE POSTAR */
+    background-color: #7F479B;
+    color: #ffffff;
+    border: 0;
+    width:30%;
+    font-weight: bold;
+    font-size: 17px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 40px;
+    border-radius: 7px;
+    padding:10px 0px 10px 0px;
+    
+}
+
+.recado__button:hover{        /* TRANSIÇÃO DO BOTÃO  */
+    background-color: #462755;
+    color: #ECDDF3;
+    transition: 0,3s;
+}
+
+/* JAVA SCRIPT----------------------------------------------------------------------------------------------- */
+.nova__linha{                        /*  */
+    color: rebeccapurple;
+    border: 2px dashed rebeccapurple;
+    width: 70%;
+    margin: 10% 0% 10% 15%;
+    padding: 10px;
+}
+
+
+.novo__nome{          /*  */ 
+    font-weight: bold;
+    font-size: 10px;
+    font-style: italic;
+}
+
+.novo__texto{                  /*  */
+    text-align: justify;
+}
+/* ----------------------------------------------------------------------------------------------------------- */
+/* FOOTER */
+
+.footer {
+    background-color: #EA4C89;
+    font-family:'Roboto', sans-serif;
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 1.4rem;
+    padding: 30px;
+
+    
+}
+li{ 
+    padding-top: 8px;
+}
+
+.footer__home--reprograma {
+    display: block;
+    text-align: center;
+    list-style: none;
+
+}
+
+
+.footer__redes--sociais {
+    display: flex;
+}
+
+/* .img-fb {
+    width: 20px;
+} */
+
+#redes__sociais{ 
+    margin-left: 10px;
+}
+
+.footer__cinza{
+    font-family:'Roboto', sans-serif;
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 10px;
+    color: white;
+}

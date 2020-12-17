@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+   
+}
+
+.navbar{
+    background-color: #C083B9;;
+    max-width: 100% ;
+    height: 80%;
+}
+
+.navbar_logotipo{
+    text-align: center;
+    padding: 5px;
+    
+}
+
+
+header{
+    background-image: url(./img/backgroud_header_pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-width: 80vh;
+    height: 500px;
+    color: #ffffff;
+    
+}
+
+
+
+.container_header{
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.header_titulo{
+    width: 30%;
+    margin: 50px 0px 10px 70px ;
+    font-size: 1.5rem;
+
+}
+
+p{
+    font-size: 18px;
+}
+
+.header_img{
+    max-width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-top: -80px;
+
+}
+
+.img_header{
+    width: 500px;
+    height:300px;
+    margin-left: -100px;
+    margin-top: 220px;
+    margin-right: 80px;
+}
+
+.header_sabermais{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 40px;
+    background: #C083B9;
+    border-radius: 5px;
+    color: #ffffff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    /* margin: 15px 0; */
+    margin-top: 40px;
+
+}
+
+.header_sabermais:hover {
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s;
+}
+
+.container_maravilhosa{
+    background-color: #FAD8E5;
+    align-items: center;
+    padding: 20px 190px;
+    text-align: center;
+    
+}
+
+h2{
+    font-size: 30px;
+}
+
+.maravilhosa_titulo{
+    color: #ea4c89;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+.maravilhosa_box{
+    margin-bottom: 20px;
+    color:  rebeccapurple;
+    width: 90%;
+    border: 1px solid  rebeccapurple;
+
+}
+
+.box_text{
+    margin: 30px;
+}
+
+
+.maravis_historia{
+   display: flex;
+}
+
+.img_historia{
+   width: 100%;
+   height: auto;
+   
+}
+
+.historia_text{
+    padding: 20px 100px;
+    text-align: justify;
+}
+
+h3{
+    color: #63458a;
+    text-align: left;
+    padding: 0px 100px;
+}
+
+.text_historia{
+    color: #63458a;
+}
+
+
+.container_recado{
+    display: flex;
+    align-items: center;
+    padding: 20px ;
+}
+
+h4{
+    color: #ea4c89;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0px ;
+    
+}
+
+textarea, label, input{
+    padding: 5px 0px;
+    color: #63458A;
+    
+}
+
+textarea, input{
+    border: 1px solid #63458A;
+    padding: 15px;
+    border-radius: 5px ;
+}
+
+textarea{
+
+}
+
+.img_recado{
+    width: 100%;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: -174px;
+}
+
+.form_recado{
+   display: flex;
+   flex-direction: column;
+   width: 50%;
+
+}
+
+
+.botao{ 
+      
+    background-color: #7f479b;
+    color: #ffffff;
+    border-radius:5px ;
+    width: 40%;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 21px;
+    height: 50px; 
+    letter-spacing: 0.5px;
+}
+
+.botao:hover{
+    background-color: #462755;
+    color: #ffffff;
+    transition: 0,3s;
+
+}
+
+.nova_linha{
+    color: rebeccapurple;
+    border: 1px dashed rebeccapurple;    
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.novo_nome{
+    font-weight: bold;
+    font-size: 10PX;
+    font-style: italic;
+}
+
+.novo_texto{
+    text-align: justify;
+}
+
+
+
+
+
+.footer {
+    background: #EA4C89;
+    color: #F3F3F3;
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__facebook {
+    display: flex;
+}
+
+.img-fb {
+    width: 20px;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+
+
+
+/* media desktop */
+
+@media (max-width:980px){
+ 
+.container_header{
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.header_titulo{
+    width: 90%;
+    padding: 1px 40px 1px 1px;
+
+}
+
+.header_img{
+    margin: 1px;
+    
+}
+
+.img_header{
+    margin: 1px;
+    margin-top: 30px;
+}
+
+.historia_text{
+    padding: 1px 1px;
+}
+
+.container_maravilhosa{
+    margin-top: 100px
+}
+.container_recado{
+    flex-direction: column;
+    
+}
+
+.img_recado{
+    margin-bottom: 1px;
+}
+}
+
+
+
+
+@media (max-width: 520px) {
+
+
+*{
+    font-size: 10px
+}
+
+header{
+    height: 800px;
+}
+
+.img_header{
+    margin-block: 130px;
+    height: auto;
+    width: 90%;
+    
+}
+
+.header_sabermais{
+    margin-top: 220px;
+}
+
+.header_titulo{
+    height: 50px;
+}
+
+.historia_text{
+    padding: 15px 10px;
+   
+}
+
+label, .historia_text, h3, .box_text {
+    font-size: 15px;
+}
+
+h3{
+    margin: 35px 44px;
+}
+
+h1, h4{
+    font-size: 40px;
+}
+
+p{
+    font-size: 15px;
+    /* padding: 25px; */
+
+}
+
+.container_maravilhosa{
+    justify-content: center;
+    padding: 20px 20px;
+    margin-top: -100px;
+}
+
+.autora_titleandabout{
+    display:inline;
+}
+
+
+
+.maravis_historia{
+    display: block;
+}
+
+.box_text{
+  margin: 5px;
+  width: 80%;
+}
+
+
+
+@media(max-width:850px){
+    
+
+  .header_titulo{
+    width: 80%;      
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   }
+     
+}}

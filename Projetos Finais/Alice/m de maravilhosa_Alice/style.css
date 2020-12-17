@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+      margin: 2px;
+  }
+  
+  /* NAVBAR */
+  
+  .navbar{
+
+      width: 100%;
+      height: 80px;
+  }
+  
+  .navbar_logotipo>img {
+    display: block;
+    margin: auto;
+    background-color:#EA4C89; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    max-width: 150px ;
+  }
+  
+  /* -------------------------------------------------------------------------------- */
+  
+  
+  /* HEADER */
+  
+  .header{
+      background-image: url("img/backgroud_header_pink.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 80vh;
+      height: 500px;
+      color: #ffffff;
+      margin-top: 20px;
+      
+  }
+  
+  .container_header{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      padding: 30px;
+  }
+  
+  
+  .header_maravilhosa_video{
+      width: 70%;
+      margin-left: 70px;
+      margin-top: 120px;
+  }
+  
+  .header_titulo{
+      width: 30%;
+      margin: 50px 0px 10px 70px ;
+      font-size: 35px;
+      text-align: center;
+    
+      
+  }
+  .header_subtitulo{
+      font-size: 18px;
+      margin-top: 20px;
+      text-align: start;
+
+  }
+  
+  /* --- BOTAO --- */
+    
+  .header_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 200px;
+      height: 40px;
+      background: #C083B9;
+      border: solid 2px #C083B9;
+      border-radius: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      list-style: none;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      margin-top: 40px;
+
+  }
+
+  
+  .header_button:hover {
+      background-color: #ffffff;
+      color: #EA4C89;
+      transition: background-color .5s;
+  }
+  
+  /* SECAO MARAVILHOSA */
+  
+ 
+  .container_maravilhosa{
+      background-color: #FAD8E5;
+      align-items: center;
+      padding: 20px ;
+      text-align: center;
+  }
+  
+  .maravilhosa_titulo{
+      color: #EA4C89;
+      font-size: 35px;
+      width: 85%;
+      text-align: center;
+      font-weight: bold;
+      padding: 5%;
+  }
+  
+  .maravilhosa_boxBorder{
+      width: 80%;
+      border: 1px solid #674582; 
+      font-size: 20px;
+      color: #674582;
+      font-weight: bold;
+      margin-left: 90px;
+  }
+  
+  .boxBorder_texto{
+      margin: 30px;
+  }
+  .suaHistoria_texto-autora{
+    font-weight: bold
+  }
+  
+  .container_suaHistoria{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #FAD8E5;
+      padding: 5%;
+  }
+  
+  .suaHistoria_imagem{
+      width: 90%;
+      max-width: 550px;
+      height: auto;
+      display: block;
+      margin: auto;
+     
+  }
+  
+  h2{
+      text-align: left;
+      color: #63458A;
+  }
+  
+  .suaHistoria_texto{
+      color: #63458A;
+      width: 25%;
+      
+  }
+  .suaHistoria_texto>p{
+      margin-top: 5%;
+      margin-bottom: 5%;
+  }
+  
+  /* SECAO RECADO */
+  
+  .container_recado{
+      display: flex;
+      align-items: flex-end;
+      padding: 10px;
+      margin-top: 70px;
+  }
+  .container_recado--img>img{
+    margin-left: 10px;
+  }
+  
+  .recado_icon{
+      display: flex;
+      justify-content: left;
+      width: 40%;
+      max-width: 100%;
+      height: auto;
+  }
+  .container_recado h1{
+      color: #EA4C89;
+      width: 70%;
+      font-size: 40px;
+      font-weight: bold;
+
+  }
+  
+  .form__exemplo{
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px;
+  }
+  
+  
+    #nomeInput{
+      color: rebeccapurple;
+      border: 2px solid #C083B9  ;
+      width: 30%;
+      padding: 5px;
+      margin-bottom: 10px;
+    }
+
+    #textoInput{
+        width: 30%;
+        height: 100px;    
+    }
+    
+   
+
+    .texto__label{
+        color: #7F479B;;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+    
+    
+    .button_texto__button{
+        background-color: #7F479B;
+        color: #ffffff;
+        border: 0;
+        width: 30%;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.3s;
+        cursor: pointer;
+        margin-top: 21px;
+        height: 40px;
+    }
+    
+    .button_texto__button:hover{
+        background-color: #462755;
+        color: #ECDDF3;
+        transition: 0,3s;
+      }
+    
+      .nova__linha{
+        color: rebeccapurple;
+        border: 1px dashed rebeccapurple;    
+        margin-top: 30px;
+        padding: 5px;
+    }
+    
+    .novo__nome{
+        font-weight: bold;
+        font-size: 10PX;
+        font-style: italic;
+    }
+    
+    .novo__texto{
+        text-align: justify;
+    }
+    
+    
+    /* FOOTER */
+  
+  
+  .footer { 
+       background-color:#EA4C89;
+       color: white;
+      
+  }
+  
+  .footer__menu {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px 60px;
+      font-size: 1.4rem;
+      padding: 30px;
+  }
+  
+  .footer__links {
+      display: block;
+      text-align: center;
+      list-style: none;
+  }
+  
+  .footer__facebook {
+      display: flex;
+  }
+  
+  .img-fb {
+      width: 20px;
+  }
+  
+  .footer_cc {
+      background: #5B5E5E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  }
+

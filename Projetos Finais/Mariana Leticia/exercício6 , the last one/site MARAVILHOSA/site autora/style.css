@@ -1,0 +1,392 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+/* .navbar */
+.navbar {
+    background-color: #C083B9;
+    width: 100%;
+    height: 80%;
+}
+
+.navbar_logotipo {
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* header */
+.header {
+    background-image: url("./img/backgroud_header_pink.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; /* isso faz com que não se repita o background */
+    min-width: 80vh; /*acho que é uma medida de responsividade*/
+    height: 500px;
+    color: #ffffff;
+
+}
+
+.container_header {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.header_titulo {
+    width: 26rem;
+    margin: 90px 0px 20px 10%; /* é em medida de relógio; começa em cima, depois vai para direita; depois para baixo; por fim para esquerda.*/
+    font-size: 180%;
+    height: 120px;
+    
+}
+
+.header__div--button {
+    padding: 15px 70px 15px 70px;
+    margin-top: 30px;
+    background-color: rgb(149, 125, 202);
+    border: hidden 1px;
+    color: white;
+    font-size: 20px;
+    border-radius: 7px;
+}
+
+.header__div--button:hover {
+    cursor: pointer;
+    background-color: rgb(104, 80, 156);
+}
+
+.header__div--button:focus {
+    background-color: rgb(104, 80, 156) ;
+}
+
+.header_video {
+    margin: 230px 10% 10% 10%;
+}
+
+
+
+
+
+/* (sobre position: absolute)  para botar esse top, left etc precisa do position absolute*/
+
+/* .header_video {
+    width: 900px;
+    height: 900px;
+    position: absolute; 
+    top: 46%;
+    left: 60%;
+    margin-left: -200px;
+    margin-top: -30px;
+} */
+
+
+
+/********************** autora ******************/
+
+
+.section__container--autora {
+     padding: 40px;
+     background-color: #FAD8E5;
+     margin: 100px 0px 50px 0px;
+     
+}
+
+.section__div--h1 {
+    margin: 50px;
+    font-size: 330%;
+    text-align: center;
+    color: #EA4C89;
+}
+
+
+
+/*********************** CONTATO ****************/
+.section__container--div {
+    display: flex;
+    justify-content: center;
+}
+
+.section__div--imagem {
+    max-height: 20rem;
+    max-width: 75%;
+    min-width: 60%;
+    margin-left: 120px;
+    border-radius: 7px;
+}
+
+.section__div--conteudo {
+    max-width: 400px;
+    padding: 40px;
+    margin: 10px;
+    margin-top: 100px;
+    background-color: white;
+    color: rgb(110, 31, 31);
+    border-radius: 7px;
+}
+
+p, h3 {
+    margin-top: 20px;
+}
+
+.section__container--contato {
+    margin: 100px 0px 50px 0px;
+}
+
+.section__div--form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#container {
+    width: 900px;
+    margin-left: 23%;
+    margin-right: -30%;
+}
+
+.section__div--formH1 {
+    font-size: 50px;
+    max-width: 400px;
+    color: #EA4C89;
+}
+
+.section__div--formInput {
+    max-width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.section__form--input {
+    margin: 5px 9px 5px 0px;
+    padding: 10px;
+    border: #EA4C89 2px solid;
+    border-radius: 7px;
+}
+
+.inputFora {
+    padding: 10px 200px 100px 10px;
+}
+
+.section__div--formButton {
+    padding: 10px 40px 10px 40px;
+    background-color: #EA4C89;
+    color: white;
+    border: hidden 2px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.section__div--formButton:hover {
+    background-color:  #c529bd;
+    cursor: pointer;
+}
+
+.section__div--formButton:focus {
+    background-color:  #c529bd;
+    
+}
+
+.section__div--formImg {
+    max-width: 420px;
+}
+
+.section__container--lowButton {
+    text-align: center;
+}
+
+.section__div--lowButton {
+    padding: 10px 30px 10px 30px;
+    color: white;
+    background-color: #EA4C89;
+    border: hidden 2px;
+    margin-top: 50px;
+    border-radius: 7px;
+}
+
+.section__div--lowButton:hover {
+    cursor: pointer;
+    background-color: rgb(202, 98, 72);
+}
+
+
+/* ***************FOOTERRRR*********************** */
+
+.footer {
+    background-color: #EA4C89;
+    color:white;
+    padding: 70px;
+    
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer__div--ps {
+    text-align: center;
+}
+
+.footer__div--imgLogos {
+    display: flex; 
+    justify-content: center;
+}
+
+.footer__div--imgLogos>div {
+    margin-right: 10px;
+}
+
+.footer__final {
+    text-align: center;
+    color: white;
+    background-color: slategray;
+    margin: 0;
+    padding: 7px;
+    font-style: italic;
+}
+
+
+/************** MOBILE *********************/
+
+
+/* queria deixar claro aqui que a virou mais algo para tablet do que para celular pelo fato de eu não conseguir mexer no tamanho do vídeo direito etcetc */
+@media(max-width: 1430px) {
+    .header__div--video {
+        max-width: 300%;
+        width: 150%;
+        height: 220px;
+    }
+
+    
+}
+
+
+@media(max-width: 1070px){
+
+
+    .header {
+        height: 600px;
+        min-width: 50vh;
+        height: 600px;
+    }
+
+    .header__div--video {
+        width: 120%;
+        height: 130%;  
+        margin-left: -10%;
+    }
+
+    .header_titulo {
+        margin-bottom: -50px;
+        margin-left: -5%;
+        width: 50%;
+        font-size: 130%;
+    }
+
+    .container_header {
+        justify-content: center;
+    }
+
+    /* AUTORA */
+
+    .section__div--h1 {
+        font-size: 200%;
+    }
+
+    .section__container--div {
+        display: block;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-left: -15%;
+    }
+
+    .section__div--imagem {
+        max-height: 19rem;
+        max-width: 50%;
+        min-width: 300px;
+        margin-left: 5rem;
+        border-radius: 20px;
+        margin-left: 22%;
+    }
+
+    .section__div--conteudo {
+        max-height: 19rem;
+        max-width: 50%;
+        min-width: 300px;
+        margin-left: 5rem;
+        border-radius: 20px;
+        margin-left: 15%;  
+    }
+
+    .h1_autora {
+        font-size: 120%;
+    }
+
+    p, h3 {
+        font-size: 80%;
+    }
+
+    .section__div--formH1 {
+        font-size: 200%;
+        width: 100%;
+    }
+
+    #container {
+        width: 400px;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+
+    .section__div--form {
+        display: block;
+        margin-left: 10%;
+    }
+
+    .section__div--formImg {
+        margin-top: 30px;
+        width: 60%;
+    }
+
+
+    /* FOOTER */
+
+
+    .footer__container {
+        display: block;
+        max-width: 200px;
+    }
+
+    .footer__container>div>p {
+        margin-bottom: 10px;
+    }
+
+    
+    
+    .footer__div--ps {
+        margin-left: -60px;
+        line-height: -20px;
+    }
+
+    .footer__div--logo {
+        margin-left: -11px;
+        margin-bottom: 10px;
+    }
+    .footer__div--imgLogos {
+        margin-left: 20px;
+    }
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,433 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif; 
+}
+
+/****************************************************** NAVBAR ******************************************************/
+
+.navbar {
+    background-color: #ffffff;
+    width:100%;
+    height: 80%;
+    margin:1% 0%; 
+    padding:0; 
+}
+
+.navbar_logotipo {
+    text-align: center;
+    padding:5px; 
+}
+
+.navbar_logotipo>img {
+    background-color:#ea4c89;
+    width:15%;
+}
+
+/********************************************************** HEADER **************************************************/
+
+#header {
+    background-image:url("IMG/backgroud_header_pink.jpg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    min-width: 80vh;
+    height:360px;
+    color:#ffffff;
+}
+
+.container_header {
+    width:100%;
+    height: 100%;
+    display:flex;
+}
+
+.header_titulo{
+    width:30%;
+    margin: 20px;
+    margin: 80px 0px 10px 110px ;
+}
+
+.header_titulo > h1 {
+    font-weight: bolder;
+    font-size:51px;
+}
+
+.header_video {
+    width: 500px;
+    height: 300px;
+    position:absolute;
+    top:46%;
+    left:64%;
+    margin-left: -200px;
+    margin-top:-100px;
+}
+
+.header_video > iframe {
+    width:600px;
+    height: 340px;
+}
+
+.header_button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding:3px 34px;
+    margin: 35px 0;
+    width: 150px;
+    height: 40px;
+    background-color:#C083B9 ;
+    color: #ffffff;
+
+}
+
+.header_button:hover {
+    background-color: #ffffff;
+    color: #EA4C89;
+    transition: background-color .5s;
+}
+
+/****************************************************** AUTORA *****************************************************/
+
+.container_section {
+    background-color:  #FAD8E5;
+    margin:140px 0px 0px 0px;
+    height:800px;
+}
+
+.section_titulo {
+    font-size:35px;
+    font-weight: bolder;
+    color: #EA4C89;
+    text-align: center;
+    padding: 70px;
+    letter-spacing: -1px;
+}
+
+.section_image {
+    margin: 0px 0px 0px 170px;
+}
+.section_image > img {
+   width:430px ;
+   border-radius: 15px;
+}
+
+.section_aboutme {
+    position:absolute;
+    top: 900px ;
+    left: 750px ;
+    margin-right: 150px;
+    background-color: #ffffff;
+    padding:40px;
+    text-align: justify;
+    color: #63458A;
+    border-radius: 15px;
+}
+
+.section_aboutme > h1 {
+    text-align: center;
+    font-size:23px;
+    margin: 0px 0px 20px 0px;
+}
+
+.section_aboutme > h2 { 
+    font-size :15px;
+    font-weight: lighter;
+    margin: 0px 0px 20px 0px;
+}
+
+.section_aboutme > p {
+    font-weight: bolder;
+    line-height: 25px;
+}
+
+/**************************************************** CONTATO ***************************************************/
+
+.contato_container {
+
+}
+
+.contato__comigo {
+    
+}
+.contato_titulo {
+    margin: 40px 0px 0px 150px; 
+    font-size:30px;
+    color:  #EA4C89;
+}
+
+.contato_form {
+     margin: 50px 0px 0px 150px;
+}
+
+.contato_form--text {
+    display:flex;
+    width: 500px;
+    height: 40px;
+    margin: 0px 0px 20px 0px;
+}
+
+.contato_form--name {
+    font-size:20px;
+    width:200px;
+    border-color: #ea4c89;
+    border-radius: 5px;
+}
+
+.contato_form--email {
+    margin: 0px 0px 0px 10px;
+    width: 650px;
+    font-size: 20px;
+    border-color: #ea4c89;
+    border-radius: 5px;
+}
+.contato_form  textarea {
+    display: block;
+    line-height: normal;
+    margin: 20px 0px 0px 0px;
+    font-size:20px;
+    border-color: #ea4c89;
+    border-radius: 5px;
+}
+
+#form__button {
+    display:block;
+    margin: 20px 0px 0px 0px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    padding:3px 34px;
+    margin: 35px 0;
+    width: 150px;
+    height: 40px;
+    background-color:  #EA4C89;
+    color: #ffffff;
+}
+
+#form__button:hover {
+    background-color: #FAD8E5;
+    color: #EA4C89;
+    transition: .5s;
+}
+
+.contato_image {
+}
+
+.contato_image>img {
+    width:330px;
+    position:absolute;
+    top: 1500px ;
+    left: 790px ;
+}
+
+.contato_button {
+     margin: 80px 0px 0px 580px;
+    text-align: center;
+    justify-content: center;
+    display:block; 
+    text-decoration: none;
+    font-weight: bolder;
+    list-style: none;
+    border-radius: 10px;
+    padding:3px 34px;
+    width: 180px;
+    height: 40px;
+    background-color:  #EA4C89;
+    color: #ffffff;
+}
+
+.contato_button:hover {
+    background-color: #FAD8E5;
+    color: #EA4C89;
+    transition: .5s;
+}
+
+
+/* FOOTER */
+
+.footer {
+    background: #EA4C89;
+    color: #F3F3F3;
+    
+}
+
+.footer__menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; 
+    margin: 10px 60px;
+    font-size: 1.4rem;
+    padding: 30px;
+}
+
+.footer__links {
+    display: block;
+    text-align: center;
+    list-style: none;
+}
+
+.footer__links a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.navegacao__redes-sociais a {
+    text-decoration: none;
+}
+
+.footer_cc {
+    background: #5B5E5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* -----------------------------------------DESKTOP FIRST---------------------------------------- */
+
+@media (max-width:1125px) {
+    *{
+        font-size: 90%;
+    }
+
+    .header_button {
+        font-size: 200%;
+    }
+
+    .footer__links {
+        font-size: 25px;
+    }
+
+    .footer_cc {
+        font-size:15px;
+    }
+
+}
+
+@media(max-width: 1116px){
+
+    *{
+        font-size: 80%;
+    }
+    .header_video{
+        /* width: 70%;
+        height: 380px;
+        margin-left: -250px; */
+    }
+
+    .maravilhosa_titulo > h1 {
+        font-size:200%;
+    }
+
+    .maravilhosa_boxBorder {
+        margin: 0px 0px 50px 0px;
+    }
+
+    .header_button {
+        font-size: 400%;
+    }
+
+    .footer__links {
+        font-size: 35px;
+    }
+
+    .footer_cc {
+        font-size:25px;
+    }
+     
+}
+
+@media(max-width: 747px){
+
+    *{
+        font-size: 12px;
+    }
+    .container_header{
+        flex-direction: column;
+        
+    }
+
+    .header_button {
+        font-size: 100%;
+    }
+
+    .maravilhosa_titulo > h1 {
+        font-size:80%;
+    }
+
+    .boxBorder_texto {
+        margin: 30px;
+        
+    }
+
+    .maravilhosa_boxBorder {
+        margin: 0px 10px 5px 10px;
+    }
+
+    .header_video > img {
+        width: 45%;
+        margin-top: -10%;
+        margin-left: 20%;
+    
+    }
+
+    .header_titulo{
+        width: 90%;
+        margin: 5px 10px 5px 10px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .maravilhosa{
+        margin-top: 200px;
+        height: 100%;
+        padding-bottom: 25px;
+    }
+
+    .container_suaHistoria{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: justify;
+        
+    }
+
+    .suaHistoria_imagem{
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .container_recado{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .form__exemplo{
+       margin-left: 10px;
+       padding: 20px;
+   }
+
+    
+    #textoInput{
+        width: 80%;
+        height: 100px;    
+    }
+    
+    #nomeInput{
+        width: 80%;
+        height: 30px;
+    }
+
+    .texto__button{
+        width: 30%;
+    }
+}

@@ -1,0 +1,790 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* ********************************* */
+/* NAVBAR */
+
+.navbar {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #C083B9;
+}
+
+/* ******************** */
+/* NAVBAR CONTAINER */
+
+.navbar__container {
+    background-color: #C083B9;
+    display: inline-block;
+    width: 17%;
+    min-width: 150px;
+}
+
+.navbar__container img{
+    width: 100%;
+    min-width: 150px;
+}
+
+
+
+/* ********************************* */
+/* HEADER */
+
+.header {
+    background-color: #EA4C89;
+    background-size: cover; 
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7.5% 7.5% 100px 7.5%;
+}
+
+/* ******************** */
+/* HEADER CONTAINER */
+
+.header__container {
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__container--titulo{
+    font-size: 3.3rem;
+    min-width: 300px;
+    font-weight: 800;
+}
+
+.header__container--botao{
+    width: 55%;
+    min-width: 200px;
+    padding: 15px;
+    margin-top: 50px;
+    background-color: #C083B9;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header__container--botao:hover{
+    cursor: pointer;
+    background-color: #b84aab;
+}
+
+/* ******************** */
+/* HEADER VIDEO */
+
+.header__video {
+    width: 60%;
+    min-width: 550px;
+    margin: 50px 0 -160px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+/* ******************** */
+/* HEADER DIV BRANCA */
+
+.header__div_branca {
+    width: 100%;
+    height: 105px;
+    background-color: white;
+}
+
+
+
+/* **************************** */
+/* SECAO AUTORA */
+
+.secao_autora {
+    padding: 100px 7.5% 100px 7.5%;
+    background-color: #FAD8E5;
+    color: #63458A;
+}
+
+/* ******************** */
+/* SECAO AUTORA TITULO */
+
+.secao_autora__titulo{
+    font-size: 3.3rem; 
+    font-weight: 800;
+    color: #EA4C89;
+    text-align: center;
+}
+
+/* ******************** */
+/* SECAO AUTORA CONTAINER */
+
+.secao_autora__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 100px 0 100px 0;
+}
+
+.secao_autora__container--img {
+    width: 40%;
+    min-width: 400px;
+}
+
+.secao_autora__container--img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.secao_autora__container--sobre_mim{
+    background-color: white;
+    width: 40%;
+    min-width: 400px;
+    margin: 100px 0 -100px 0;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-radius: 10px;
+    line-height: 25px;
+}
+
+.secao_autora__container--sobre_mim h3{
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.secao_autora__container--sobre_mim a{
+    text-decoration: none;
+    color: #63458A;
+}
+
+.secao_autora__container--sobre_mim p{
+    text-align: left;
+    display: inline-block;
+    font-size: 1.2rem;
+    margin: 10% 0 5% 0;
+}
+
+.secao_autora__container--sobre_mim h4{
+    font-weight: 900;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+
+
+
+/* **************************** */
+/* SECAO CONTATO */
+
+.secao_contato{
+    padding: 100px 7.5% 100px 7.5%;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* ******************** */
+/* SECAO CONTATO FORM */
+
+.secao_contato__form{
+    width: 40%;
+    min-width: 400px;
+    margin-bottom: 100px;
+    display: inline;
+}
+
+.secao_contato__form--titulo {
+    color: #EA4C89;
+    margin-bottom: 10%;
+    font-size: 3.3rem;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.secao_contato__form--flex{
+    width: 100%;
+    display: flex;
+}
+
+.secao_contato__form--flex_input{
+    color: #9F999F;
+    display: inline;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: 2px solid #EA4C89;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: initial;
+    outline: none;
+    resize: none;
+}
+
+.secao_contato__form--flex_input2{
+    color: #9F999F;
+    display: inline;
+    width: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-sizing: border-box;
+    border: 2px solid #EA4C89;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: initial;
+    outline: none;
+    resize: none;
+}
+
+
+.secao_contato__form--flex_input::placeholder{
+    color: #9F999F;
+}
+
+.secao_contato__form--flex_input2::placeholder{
+    color: #9F999F;
+}
+
+.secao_contato__form--flex_input:hover{
+    background-color:#FAD8E5;
+}
+
+.secao_contato__form--flex_input2:hover{
+    background-color:#FAD8E5;
+}
+
+.secao_contato__form--flex_input2:focus{
+    background-color:#fdc8dd;
+}
+
+.secao_contato__form--flex_input:focus{
+    background-color:#fdc8dd;
+}
+
+.secao_contato__form--input_erro{
+    background-color: rgb(255, 163, 130);
+    border: 2px solid coral;
+}
+
+.secao_contato__form--botao{
+    background-color: #EA4C89;
+    color: white;
+    width: 45%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+}
+
+.secao_contato__form--botao:hover{
+    background-color: #eb2370;
+    cursor: pointer;
+}
+
+/* ******************** */
+/* SECAO CONTATO ALERTA */
+
+.secao_contato__alerta{
+    color: #EA4C89;
+    margin-top: 20px;
+    padding: 0 15px 0 15px;
+    box-sizing: border-box;
+    border: 2px solid #EA4C89;
+    border-radius: 10px;
+    font-size: 1rem;
+}
+
+.secao_contato__alerta p{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.secao_contato__alerta--lista-erro{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+.secao_contato__alerta--lista-erro li{
+    text-align: center;
+}
+
+/* ******************** */
+/* SECAO CONTATO IMG */
+
+.secao_contato__img{
+    width: 40%;
+    min-width: 400px;
+    margin-bottom: 100px;   
+}
+
+.secao_contato__img img{
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+/* ******************** */
+/* SECAO CONTATO MARAVILHOSAS */
+
+.secao_contato__maravilhosas{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.secao_contato__maravilhosas a{
+    display: inline;
+    color: white;
+    background-color: #EA4C89;
+    min-width: 200px;
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.secao_contato__maravilhosas a:hover{
+    background-color: #eb2370;
+}
+
+
+/* **************************** */
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ******************** */
+/* FOOTER CONTAINER */
+
+.footer__container {
+    background-color: #EA4C89;
+    width: 100%;
+    padding: 0 50px 50px 50px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__container--links {
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+}
+
+.footer__container--links a{
+    min-width: 250px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.footer__container--logo{
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+}
+
+.footer__container--logo img{
+    width: 100%;
+    min-width: 250px;
+}
+
+.footer__container--redes_sociais {
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container--redes_sociais a{
+    text-decoration: none;
+}
+
+.footer__container--redes_sociais img{
+    min-width: 40px;
+}
+
+/* ******************** */
+/* FOOTER DIREITOS AUTORAIS */
+
+.footer__direitos_autorais {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #5B5E5E;
+    color: white;
+}
+
+.footer__direitos_autorais p {
+    text-align: center; 
+}
+
+
+
+/* ******************************************* */
+/* RESPONSIVIDADE */
+
+
+
+@media only screen and (max-width: 600px) {
+    
+    /* **************************** */
+    /* NAVBAR CONTAINER*/
+    .navbar__container{
+        min-width: 250px;
+    }
+
+
+    
+    /* **************************** */
+    /* HEADER */
+    
+    .header{
+        padding-top: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* HEADER CONTAINER */
+
+    .header__container {
+        width: 80%;
+        min-width: 350px;
+    }
+
+    /* ******************** */
+    /* HEADER VIDEO */
+
+    .header__video{
+        width: 30%;
+        min-width: 350px;
+        margin-bottom: -200px;
+    }
+
+    .header__video iframe {
+        height: 200px;
+    }
+
+    /* ******************** */
+    /* HEADER DIV BRANCA */
+
+    .header__div_branca{
+        height: 150px;
+    }
+
+
+
+    /* **************************** */
+    /* SECAO AUTORA */
+
+   .secao_autora{
+       padding: 30% 7.5% 30% 7.5%
+   }
+
+    /* ******************** */
+    /* SECAO AUTORA CONTAINER */
+
+   .secao_autora__container--img{
+       min-width: 350px;
+   }
+
+   .secao_autora__container--sobre_mim{
+        min-width: 350px;
+    }
+
+    .secao_autora__container--sobre_mim h3{
+        font-size: 1.7rem;
+    }
+
+    .secao_autora__container--sobre_mim h4{
+        font-size: 1.2rem;
+    }
+
+
+
+    /* **************************** */
+    /* SECAO CONTATO */
+
+    .secao_contato{
+        padding: 30% 7.5% 30% 7.5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* SECAO CONTATO FORM */
+
+    .secao_contato__form{
+        width: 100%;
+        min-width: 350px;
+        margin-bottom: 0;
+    }
+
+    .secao_contato__form--flex{
+        flex-direction: column;
+    }
+
+    .secao_contato__form--flex_input2{
+        width: 100%;
+    }
+
+    /* ******************** */
+    /* SECAO CONTATO IMG */
+
+    .secao_contato__img{
+        margin-top: 100px;
+        min-width: 350px;
+    }
+
+
+
+
+    /* **************************** */
+    /* FOOTER */
+
+    .footer{
+        font-size: 1.3rem;
+    }
+
+    /* ******************** */
+    /* FOOTER CONTAINER */
+
+    .footer__container {
+        padding: 30% 7.5% 30% 7.5%;
+        flex-direction: column;
+    }
+
+    .footer__container--links{
+        min-width: 350px;
+        padding-top: 0px;
+    }
+    
+    .footer__container--logo {
+        min-width: 350px;
+    }
+
+    .footer__container--logo img{
+        min-width: 350px;
+    }
+
+    .footer__container--redes_sociais{
+        min-width: 350px;
+    }
+
+    .footer__container--redes_sociais img{
+        min-width: 50px;
+    }
+
+    /* ******************** */
+    /* FOOTER DIREITOS AUTORAIS */
+
+    .footer__direitos_autorais {
+        font-size: 1.1rem;
+        padding: 7.5%;
+    }
+}
+
+@media only screen and (max-width: 400px){
+    /* **************************** */
+    /* NAVBAR */
+
+    /* ******************** */
+    /* NAVBAR CONTAINER*/
+    .navbar__container{
+        min-width: 200px;
+    }
+    
+    /* **************************** */
+    /* HEADER */    
+    
+    .header{
+        padding: 30% 7.5% 100px 7.5%;
+    }
+
+    /* ******************** */
+    /* HEADER CONTAINER */
+
+
+    .header__container {
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .header__container--titulo{
+        min-width: 200px;
+    }
+
+    .header__container--botao{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+
+    /* ******************** */
+    /* HEADER VIDEO */
+
+    .header__video{
+        width: 100%;
+        min-width: 200px;
+        margin-bottom: -200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__video iframe {
+        min-width: 200px;
+        height: 170px;
+    }
+
+    
+    
+    /* **************************** */
+    /* SECAO AUTORA */
+
+   .secao_autora{
+    padding: 30% 7.5% 30% 7.5%
+    }
+
+    /* ******************** */
+    /* SECAO AUTORA TITULO */
+
+    .secao_autora__titulo{
+        min-width: 200px;
+        font-size: 3rem;
+    }
+
+    /* ******************** */
+    /* SECAO AUTORA CONTAINER */
+
+    .secao_autora__container--img{
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .secao_autora__container--sobre_mim{
+        width: 100%;
+        min-width: 200px;
+        padding: 50px 20px 50px 20px;
+    }
+
+
+
+    /* **************************** */
+    /* SECAO CONTATO */
+
+    .secao_contato{
+        padding: 30% 7.5% 30% 7.5%;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* SECAO CONTATO FORM */
+
+    .secao_contato__form{
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .secao_contato__form--botao{
+        width: 100%;
+    }
+
+    /* ******************** */
+    /* SECAO CONTATO IMG */
+
+    .secao_contato__img{
+        margin-top: 100px;
+        width: 100%;
+        min-width: 200px;
+    }
+
+    /* ******************** */
+    /* SECAO CONTATO MARAVILHOSA */
+
+    .secao_contato__maravilhosas{
+        width: 100%;
+    }
+
+    .secao_contato__maravilhosas p {
+        display: block;
+        text-align: center;
+    }
+
+
+    /* **************************** */
+    /* FOOTER */
+
+    /* ******************** */
+    /* FOOTER CONTAINER */
+
+    .footer__container--links{
+        min-width: 200px;
+        padding-top: 0px;
+    }
+
+    .footer__container--links a{
+        min-width: 200px;
+    }
+    
+    .footer__container--logo {
+        min-width: 200px;
+    }
+
+    .footer__container--logo img{
+        min-width: 200px;
+    }
+
+    .footer__container--redes_sociais{
+        min-width: 200px;
+    }
+
+    .footer__container--redes_sociais img{
+        min-width: 40px;
+    }
+
+    /* ******************** */
+    /* FOOTER DIREITOS AUTORAIS */
+
+    .footer__direitos_autorais {
+        font-size: 1.1rem;
+        padding: 7.5%;
+    }
+}

@@ -1,0 +1,407 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+  }
+  
+  a {
+      text-decoration: none;
+      color: inherit;
+      margin: 2px;
+  }
+  
+  /* NAVBAR */
+  
+  .navbar{
+      background-color: #C083B9;
+      width: 100%;
+      height: 80px;
+  }
+  
+  .navbar_logotipo {
+      /* background-color: #f107a3; */
+      text-align: center;
+      padding: 5px;
+  }
+  
+  /* -------------------------------------------------------------------------------- */
+  
+  
+  /* HEADER */
+  
+  .header{
+      background-image: url("./img/img/backgroud_header_pink.jpg");
+      background-size: cover;
+      background-repeat: no-repeat;
+      min-height: 80vh;
+      height: 500px;
+      color: #ffffff;
+  }
+  
+  .container_header{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      padding: 30px;
+  }
+  
+  
+  .header_maravilhosa_img{
+      width: 100%;
+      height: 380px;
+      margin-left: 40px;
+      margin-top: 50px;
+  }
+  
+  .header_titulo{
+    font-family:  'Nerko One', cursiva;
+      width: 30%;
+      text-transform: uppercase;
+      margin: 9px 0px 10px 70px ;
+      font-size: 20px;
+  }
+  
+  /* --- BOTAO --- */
+    
+  .header_button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 150px;
+      height: 40px;
+      background: #7f479b;
+      border-radius: 5px;
+      color: #ffffff;
+      text-decoration: none;
+      list-style: none;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      /* margin: 15px 0; */
+      margin-top: 40px;
+  }
+  
+  .header_button:hover {
+      background-color: #462755;
+      color: #EA4C89;
+      transition: background-color .5s;
+  }
+
+  /*********************HEADER VIDEO *****************/
+
+  .header_maravilhosa_img{
+      width: 500px;
+      height: 300px;
+      position: absolute;
+      top: 30%;
+      left: 40%;
+  }
+  
+  /* SECAO MARAVILHOSA */
+
+  .maravilhosa{
+      background-color: #FAD8E5;
+      align-items: center;
+      width: 100%;
+      height: 750px;
+      
+  }
+  
+  .container_maravilhosa{
+      text-align: center;
+      padding: 0 5%;
+  }
+  
+  .maravilhosa_titulo{
+      color: #462755;
+      font-size: 30px;
+      text-align: center;
+      font-weight: bold;
+      padding-top: 40px;
+  }
+  
+  .maravilhosa_boxBorder{
+      border: 2px solid #674582; 
+      margin: 20px;
+      height: 50%;
+      max-width: 30%;
+      display: inline-block;
+      padding: 5px;
+  }
+  
+  .boxBorder_texto{
+      margin: 30px;
+      color: #462755;
+      text-align: center;
+  }
+  
+  .container_suaHistoria{
+      display: flex;
+     color: #674582;
+     margin-left: 08%;
+     margin-right: 08%;
+
+  }
+  
+  .suaHistoria_imagem{
+     width: 1650px;
+     max-width: 100%;
+     height: auto;
+     text-align: center;
+     padding: 5px;
+  }
+  
+  h2{
+      text-align: left;
+      color: #63458A;
+      text-align: center;
+  }
+  
+  .suaHistoria_texto{
+      color: #462755;
+      text-align: center;
+      margin: 50px;
+      border: 3px solid #6b6570;
+      padding: 50px;
+      width: 500px;
+      
+
+  }
+
+  .sua_historia--autora{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .assinado{
+      color: #2c074b;
+  }
+  
+  /* SECAO RECADO */
+  
+  .section_recado{
+      display: flex;
+      align-items: center;
+      padding: 50px;
+      margin: 10px;
+      width: 100%;
+  }
+
+
+  .recado_icon{
+      width: 120%;
+      max-width: 100%;
+      height: auto;
+     
+  }
+
+  .recado_title{
+      color: #EA4C89;
+      font-size: 35px;
+      margin-left: 10px;
+      margin-top: 50px;
+  }
+
+  .div__form--main{
+      display: flex;
+      flex-direction: column;
+      margin: 0px 0px 0px 80px;
+  }
+
+  .recado__label--classe{
+       font-size: 20px;
+       margin: 40px 0px 10px 0px;
+       color: #63458A;
+  }
+
+  #recado__Input{
+      width: 120px;
+      height: 50%;
+      border-radius: 3px;
+      border-color: #c29af7;
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }
+    
+    ::placeholder{
+        font-size: 17px;
+    }
+
+  .nome__label--classe{
+      font-size: 20px;
+      margin: 40px 0px 10px 0px;
+      color: #63458A;
+  }
+
+  #nome__Input{
+      width: 120px;
+      height: 30%;
+      border-radius: 3px;
+      border-color: #c29af7;
+      padding-left: 10px;
+      padding-bottom: 20px;
+      padding-top: 10px;
+  }
+
+
+    .texto__button{
+        background-color: #7F479B;
+        color: #ffffff;
+        border: 0;
+        width: 20%;
+        font-weight: bold;
+        font-size: 16px;
+        transition: 0.3s;
+        cursor: pointer;
+        margin-top: 21px;
+        height: 45px;
+    }
+    
+    .texto__button:hover{
+        background-color: #462755;
+        color: #ECDDF3;
+        transition: 0,3s;
+    }
+
+  
+  /* FOOTER */
+  
+  
+  .footer {
+    background-color: #ea4c89;
+    padding: 20px;
+    color: #F3F3F3;
+  }
+  
+  .footer__menu {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-around;
+      margin: 10px 60px;
+      font-size: 1.4rem;
+      padding: 30px;
+  }
+  
+  .footer__links {
+      display: block;
+      text-align: center;
+      list-style: none;
+  }
+  
+  .footer__facebook {
+      display: flex;
+  }
+  
+  .img-fb {
+      width: 20px;
+  }
+  
+  .footer_cc {
+      background: #5B5E5E;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+  }
+
+  @media(max-width: 1240px){
+      .header_maravilhosa_img{
+          width: 90%;
+          height: 380px;
+          margin-left: 30px;
+      }
+  }
+  
+  @media(max-width: 760px){
+      .container_header{
+          flex-direction: column;
+      }
+
+      .header_titulo{
+          width: 90%;
+          margin: 5px 10px 5px 10px;
+          text-align: center;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .maravilhosa{
+          margin-top: 200px;
+          height: 100%;
+          padding-bottom: 25px;
+      }
+
+      .container_suaHistoria{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: justify;
+      }
+
+      .suaHistoria_imagem{
+          width: 90%;
+          margin-bottom: 20px;
+      }
+
+      .container_recado{
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+      }
+
+      .form__exemplo{
+          margin-left: 10px;
+          padding: 20px;
+      }
+
+      #textoInput{
+          width: 80%;
+          height: 100px;
+      }
+
+      #nomeInput{
+          width: 80%;
+          height: 30px;
+      }
+
+      .texto__button{
+          width: 30%;
+      }
+
+    @media(max-width: 500px){
+        .header_maravilhosa_img{
+            height: 220px;
+        }
+
+        .maravilhosa{
+        margin-top: 100px ;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  }
+

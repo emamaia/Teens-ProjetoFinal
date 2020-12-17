@@ -1,0 +1,840 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: 'Montserrat';
+}
+ 
+section {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+
+/* ********************************* */
+/* NAVBAR */
+ 
+.navbar {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #C083B9;
+}
+
+/* ******************** */
+/* NAVBAR CONTAINER */
+
+.navbar__container {
+    background-color: #C083B9;
+    display: inline-block;
+    width: 17%;
+    min-width: 150px;
+}
+
+.navbar__container img{
+    width: 100%;
+    min-width: 150px;
+}
+
+
+/* ********************************* */
+/* HEADER */
+
+.header {
+    background-color: #EA4C89;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 7.5% 7.5% 100px 7.5%; 
+}
+
+/* ******************** */
+/* HEADER CONTAINER */
+
+.header__container {
+    width: 40%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.header__container--titulo{
+    font-size: 3.3rem;
+    min-width: 300px;
+    font-weight: 800;
+}
+
+.header__container--frase{
+    min-width: 200px; 
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin: 50px 0 50px 0;
+}
+
+.header__container--botao{
+    width: 55%;
+    min-width: 200px;
+    padding: 15px;
+    color: white; 
+    background-color: #C083B9;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+.header__container--botao:hover{
+    background-color: #b84aab;
+    cursor: pointer;
+}
+
+/* ******************** */
+/* HEADER IMG */
+
+.header__img {
+    width: 60%;
+    min-width: 550px; 
+    margin: 50px 0 -250px 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.header__img img{
+    width: 85%;
+    min-width: 550px;
+}
+
+/* ******************** */
+/* HEADER DIV BRANCA */
+
+.header__div_branca {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+}
+
+
+
+/* ********************************* */
+/* SECAO HISTORIA */
+
+.historia {
+    background-color: #FAD8E5;
+    color: #63458A;
+    padding: 100px 15% 100px 15%;
+    box-sizing: border-box;
+}
+
+/* ******************** */
+/* HISTORIA TITULO */
+
+.historia__titulo{
+    color: #EA4C89;
+    width: 100%;
+    min-width: 400px;
+    box-sizing: border-box;
+    font-size: 3.3rem;
+    font-weight: 800;
+    text-align: center;
+}
+
+/* ******************** */
+/* HISTORIA CITACAO */
+
+.historia__citacao {
+    width: 100%;
+    min-width: 400px;
+    padding: 50px;
+    margin: 90px 0 40px 0;
+    box-sizing: border-box;
+    border: 1px solid #63458A;
+    font-size: 1.7rem;
+    font-weight: bold;
+    line-height: 50px;
+    text-align: center;
+}
+
+/* ******************** */
+/* HISTORIA CONTAINER */
+
+.historia__container{
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.historia__container--img{
+    width: 55%;
+    min-width: 400px;
+    margin-top: 50px;
+}
+
+.historia__container--img img{
+    width: 100%;
+    min-width: 400px;
+}
+
+.historia__container--texto {
+    width: 40%;
+    min-width: 400px;
+    margin-top: 50px;
+    box-sizing: border-box;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.historia__container--texto h4{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.historia__container--texto h5{
+    font-weight: 900;
+    font-size: 1.3rem
+}
+
+.historia__container--texto a {
+    text-decoration: none;
+    color: #63458A;
+}
+
+.historia__container--texto p{
+    font-size: 1.2rem;
+}
+
+
+
+/* ********************************* */
+/* RECADO */
+
+.recado{
+    padding: 100px 7.5% 100px 7.5%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+}
+
+/* ******************** */
+/* RECADO IMG */
+
+.recado__img{
+    width: 30%;
+    min-width: 200px;
+    text-align: bottom;
+    display: flex;
+    align-items: flex-end;
+    margin: 50px 0 -100px 0;
+}
+
+.recado__img img{
+    max-width: 200px;
+}
+
+/* ******************** */
+/* RECADO FORM */
+
+.recado__form{
+    color: #63458A;
+    width: 55%;
+    min-width: 500px;
+    display: flex; 
+    flex-direction: column;
+}
+
+.recado__form h3 {
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 800;
+    text-align: left;
+    color: #EA4C89;
+    margin-bottom: 30px;
+}
+
+
+.recado__form--p{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.4rem;
+}
+
+.recado__form--input{
+    width: 55%;
+    border: 3px solid #C083B9;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+    outline: none;
+}
+
+.recado__form--input::placeholder{
+    width: 100%;
+}
+
+.recado__form--input:hover{
+    background-color: #FAD8E5;
+}
+
+.recado__form--input:focus{
+    background-color:#fdc8dd;
+}
+
+.recado__form--input_erro{
+    background-color: rgb(255, 163, 130);
+    border: 3px solid coral;;
+}
+
+.recado__form--botao{
+    width: 30%;
+    margin-top: 40px;
+    box-sizing: border-box;
+    padding: 2%;
+    background-color: #63458A;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 700;
+    outline: none;
+    text-align: center;
+}
+
+.recado__form--botao:hover{
+    background-color: #51238d;
+    cursor: pointer;
+}
+
+.recado__form--alerta{
+    width: 55%;
+    padding: 10px 10px 0 10px;
+    margin-top: 40px;
+    box-sizing: border-box;
+    border: 3px solid #C083B9;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+
+.recado__form--alerta p{
+    margin-bottom: 10px;
+}
+
+.recado__form--alerta_lista-erro{
+    list-style: none;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+/* ******************** */
+/* RECADO MENSAGEM */
+
+.recado__mensagem{
+    width: 100%;
+    min-width: 200px;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}   
+
+.recado__mensagem--individual{
+    background-color: #FAD8E5;
+    color: #63458A;   
+    border: 2px dashed #63458A;
+    width: 30%;
+    min-width: 180px;
+    padding: 10px;
+    margin: 1% 0 1% 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column; 
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.recado__mensagem--individual h4 {
+    display: inline-block;
+    text-align: center;
+}
+
+.recado__mensagem--individual p{
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+/* ********************************* */
+/* FOOTER */
+
+.footer {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* ******************** */
+/* FOOTER CONTAINER */
+
+.footer__container {
+    background-color: #EA4C89;
+    width: 100%;
+    padding: 0 50px 50px 50px; 
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__container--links {
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+}
+
+.footer__container--links a{
+    min-width: 250px;
+    color: white;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.footer__container--logo{
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+}
+
+.footer__container--logo img{
+    width: 100%;
+    min-width: 250px;
+}
+
+.footer__container--redes_sociais {
+    width: 20%;
+    min-width: 250px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container--redes_sociais a{
+    text-decoration: none;
+}
+
+.footer__container--redes_sociais img{
+    min-width: 40px;
+}
+
+/* ******************** */
+/* FOOTER DIREITOS AUTORAIS */
+
+.footer__direitos_autorais {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: #5B5E5E;
+    color: white;
+}
+
+.footer__direitos_autorais p {
+    text-align: center;
+}
+
+
+
+/* ******************************************* */
+/* RESPONSIVIDADE */
+
+
+
+@media only screen and (max-width: 1300px){
+    .historia__container{
+        justify-content: space-around;
+    }
+
+    .historia__container--texto{
+        width: 55%;
+    }
+
+    .historia__container--texto h4{
+        margin-bottom: 20px;
+    }   
+
+    .historia__container--texto p{
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    /* **************************** */
+    /* NAVBAR CONTAINER*/
+    .navbar__container{
+        min-width: 250px;
+    }
+
+
+    
+    /* **************************** */
+    /* HEADER */
+    
+    .header{
+        padding-top: 30%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* HEADER CONTAINER */
+
+    .header__container {
+        width: 80%;
+        min-width: 350px;
+    }
+
+    /* ******************** */
+    /* HEADER IMG */
+
+    .header__img{
+        width: 30%;
+        min-width: 350px;
+        margin-bottom: -200px;
+    }
+
+    .header__img img{
+        min-width: 350px;
+    }
+
+    /* ******************** */
+    /* HEADER DIV BRANCA */
+
+    .header__div_branca{
+        height: 150px;
+    }
+
+
+
+    /* **************************** */
+    /* HISTORIA */
+
+
+    .historia {
+        padding: 30% 7.5% 30% 7.5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* HISTORIA TITULO */
+
+    .historia__titulo {
+        min-width: 350px;
+    }
+
+    /* ******************** */
+    /* HISTORIA CITACAO */
+
+    .historia__citacao {
+        min-width: 350px;
+    }
+
+    /* ******************** */
+    /* HISTORIA CONTAINER */
+
+    .historia__container {
+        justify-content: space-around;
+    }
+
+    .historia__container--img{
+        min-width: 350px;
+    }
+
+    .historia__container--img img{
+        min-width: 350px;
+    }
+
+    .historia__container--texto {
+        min-width: 350px;
+    }
+
+
+
+    /* **************************** */
+    /* RECADO */
+
+    .recado{
+        padding: 30% 7.5% 30% 7.5%;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    /* ******************** */
+    /* RECADO IMG */
+
+
+    .recado__img{
+        margin-bottom: -35%;
+    }
+
+    /* ******************** */
+    /* RECADO FORM */
+
+    .recado__form{
+        width: 100%;
+        min-width: 350px;
+    }
+
+    .recado__form--input{
+        width: 100%;
+        font-size: 1.3rem;
+    }
+
+    .recado__form--botao{
+        width: 50%;
+    }
+
+    .recado__form--alerta {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+
+    /* ******************** */
+    /* RECADO MENSAGEM */
+
+    .recado__mensagem {
+        width: 100%;
+        min-width: 350px;
+    }
+
+    .recado__mensagem--individual{
+        width: 100%;
+        margin: 2% 1% 2% 1%;
+    }
+
+    .recado__mensagem--individual h4 {
+        text-align: center;
+    }
+
+    .recado__mensagem--individual p {
+        text-align: center;
+    }
+
+
+
+    /* **************************** */
+    /* FOOTER */
+
+    .footer{
+        font-size: 1.3rem;
+    }
+
+    /* ******************** */
+    /* FOOTER CONTAINER */
+
+    .footer__container {
+        padding: 25% 7.5% 25% 7.5%;
+        flex-direction: column;
+    }
+
+    .footer__container--links{
+        min-width: 350px;
+        padding-top: 0px;
+    }
+    
+    .footer__container--logo {
+        min-width: 350px;
+    }
+
+    .footer__container--logo img{
+        min-width: 350px;
+    }
+
+    .footer__container--redes_sociais{
+        min-width: 350px;
+    }
+
+    .footer__container--redes_sociais img{
+        min-width: 50px;
+    }
+
+    /* ******************** */
+    /* FOOTER DIREITOS AUTORAIS */
+
+    .footer__direitos_autorais {
+        font-size: 1.1rem;
+        padding: 7.5%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 400px){
+    /* **************************** */
+    /* NAVBAR */
+
+    /* ******************** */
+    /* NAVBAR CONTAINER*/
+    .navbar__container{
+        min-width: 200px;
+    }
+    
+    /* **************************** */
+    /* HEADER */    
+    
+    .header{
+        padding: 30% 7.5% 100px 7.5%;
+    }
+
+    /* ******************** */
+    /* HEADER CONTAINER */
+
+
+    .header__container {
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .header__container--titulo{
+        min-width: 200px;
+    }
+
+    .header__container--botao{
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    /* ******************** */
+    /* HEADER IMG */
+
+    .header__img{
+        width: 100%;
+        min-width: 200px;
+        margin-bottom: -200px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .header__img img{
+        width: 100%;
+        min-width: 200px;
+    }
+
+
+    
+    /* **************************** */
+    /* HISTORIA */
+
+    .historia__titulo {
+        min-width: 200px;
+    }
+
+    /* ******************** */
+    /* HISTORIA CITACAO */
+
+    .historia__citacao {
+        min-width: 200px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    /* ******************** */
+    /* HISTORIA CONTAINER */
+
+    .historia__container--img{
+        width: 100%;
+        min-width: 200px;
+    }
+
+    .historia__container--img img{
+        min-width: 200px;
+    }
+
+    .historia__container--texto {
+        width: 100%;
+        min-width: 200px;
+    }
+    
+    
+
+    /* **************************** */
+    /* RECADO */
+
+    /* ******************** */
+    /* RECADO FORM */
+
+    .recado__form{
+        min-width: 200px;
+    }
+
+    .recado__form--botao{
+        width: 100%;
+        padding: 5%;
+    }
+
+    /* ******************** */
+    /* RECADO MENSAGEM */
+
+    .recado__mensagem{
+        min-width: 200px;
+    }
+
+
+
+    /* **************************** */
+    /* FOOTER */
+
+    /* ******************** */
+    /* FOOTER CONTAINER */
+
+    .footer__container--links{
+        min-width: 200px;
+        padding-top: 0px;
+    }
+
+    .footer__container--links a{
+        min-width: 200px;
+    }
+    
+    .footer__container--logo {
+        min-width: 200px;
+    }
+
+    .footer__container--logo img{
+        min-width: 200px;
+    }
+
+    .footer__container--redes_sociais{
+        min-width: 200px;
+    }
+
+    .footer__container--redes_sociais img{
+        min-width: 40px;
+    }
+
+    /* ******************** */
+    /* FOOTER DIREITOS AUTORAIS */
+
+    .footer__direitos_autorais {
+        font-size: 1.1rem;
+        padding: 7.5%;
+    }
+}   
