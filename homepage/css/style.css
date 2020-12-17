@@ -209,20 +209,23 @@ padding-right: 5px;
 }
 
 .maravilhosas__perfil {
-  max-width: 120px;
+  max-width: 200px;
   margin: 2rem;
 }
 
 .maravilhosas__perfil img {
   background-color: #63458a;
-  border-radius: 10px;
+  border-radius: 50%;
   width: 100%;
+  box-shadow: 1px 1px rgb(230, 221, 221);
+  border: 3px #c7bcd1 double;
+   
 }
 
 .maravilhosas__perfil a img {
   transition: all .5s;
-  width: 160px;
-  height: 160px;
+  width: 200px;
+  height: 200px;
 }
 
 
